@@ -1,0 +1,50 @@
+* {
+  outline: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+.btn-flex {
+  display: block;
+  width: 100%;
+}
+
+.page-cover {
+  position: fixed;
+  display: flex;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  flex-direction: row;
+}
+
+.page-cover .page-content {
+  background-color: white;
+  display: flex;
+  width: 444px;
+  position: relative;
+  flex-direction: column;
+}
+
+.page-cover .page-info {
+  background-color: #F4F4F4;
+  display: flex;
+  width: 333px;
+  position: relative;
+  flex-direction: column;
+}
+
+.page-cover .page-extend {
+  background-color: white;
+  display: flex;
+  width: 222px;
+  position: relative;
+  flex-direction: column;
+}

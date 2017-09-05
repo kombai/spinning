@@ -1,0 +1,76 @@
+.list-tree {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-tree .page-header {
+  padding: 0px 15px;
+}
+
+.list-tree .page-header h2 {
+  padding-bottom: 20px;
+}
+
+.list-tree .fire-button .glyphicon {
+  color: #FF8100;
+  cursor: pointer;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.list-tree .page-body {
+  flex: 1;
+  overflow: auto;
+  padding: 0px 15px;
+}
+
+.list-tree .glyphicon-pencil {
+  padding: 7px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.list-tree .page-body .tree-item,
+.list-tree .page-body .tree-sample
+{
+  cursor: pointer;
+  display: flex;
+  border-bottom: 1px solid #fafafa;
+}
+
+.list-tree .page-body .tree-item:hover {
+  background-color: #bce8f1 !important;
+}
+
+.list-tree .page-body .tree-item:nth-child(2n) {
+  background-color: #fafafa;
+}
+
+.list-tree .page-body .tree-item:nth-child(2n + 1) {
+  background-color: #ffffff;
+}
+
+.list-tree .page-body .tree-item:hover a {
+  color: black;
+}
+
+.list-tree .page-body .tree-item:hover .edit-icon {
+  display: block;
+}
+
+.list-tree .page-body .tree-item .tree-name,
+.list-tree .page-body .tree-sample .tree-name {
+  display: inline-block;
+  flex: 1;
+  padding: 7px;
+}
+
+.list-tree .page-body .tree-item .edit-icon {
+  display: none;
+}
+
+.list-tree .page-footer {
+  padding: 15px;
+  border-top: 1px solid #eee;
+}

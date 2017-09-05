@@ -1,0 +1,67 @@
+.create-leaf {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.create-leaf .content {
+  background-color: white;
+  position: absolute;
+  left: 777px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.create-leaf .page-header {
+  margin: 0px;
+  padding: 20px;
+}
+
+.create-leaf .heading {
+  margin-bottom: 15px;
+}
+
+.create-leaf .heading .big-text {
+  font-size: 24px;
+}
+
+.create-leaf .has-feedback .glyphicon {
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.create-leaf .glyphicon:hover {
+  color: #c9302c;
+}
+
+.create-leaf .page-body {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  overflow: auto;
+  flex-direction: column;
+}
+
+.create-leaf .leaf-content {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  box-sizing: border-box;
+} 
+
+.create-leaf .leaf-label {
+  margin-right: 20px;
+}
+
+.create-leaf .page-footer {
+  padding: 15px 20px;
+  border-top: 1px solid #eee;
+}
+

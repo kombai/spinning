@@ -1,0 +1,90 @@
+.edit-twig {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.edit-twig .content {
+  background-color: white;
+  position: absolute;
+  width: 333px;
+  top: 0px;
+  left: 444px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-twig .heading {
+  margin-bottom: 20px;
+}
+
+.edit-twig .has-feedback {
+  margin-bottom: 20px;
+}
+
+.edit-twig .big-text {
+  font-size: 24px;
+}
+
+.edit-twig .create-btn .btn {
+  margin-bottom: 20px;
+}
+
+.edit-twig .glyphicon {
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.edit-twig .glyphicon:hover {
+  color: #c9302c;
+}
+
+.edit-twig .page-body {
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+  padding: 15px;
+  overflow: auto;
+}
+
+.edit-twig .leaf-item {
+  position: relative;
+}
+
+.edit-twig .leaf-item:hover {
+  background-color: #bce8f1;
+}
+
+.edit-twig .leaf-item.selected {
+  background-color: #fcf8e3;
+}
+
+.edit-twig .leaf-content {
+  cursor: pointer;
+}
+
+.edit-twig .leaf-item .photo {
+  padding: 3px;
+}
+
+.edit-twig .leaf-item .leaf-name {
+  padding: 3px;
+}
+
+.edit-twig .leaf-item .remove-leaf {
+  position: absolute;
+  cursor: pointer;
+  right: 0px;
+  top: 0px;
+  padding: 7px;
+}
+
+.edit-twig .page-footer {
+  padding: 15px;
+  border-top: 1px solid #eee;
+}

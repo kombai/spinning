@@ -1,0 +1,26 @@
+.create-tree {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.create-tree .content {
+  background-color: white;
+  position: absolute;
+  left: 444px;
+  top: 0px;
+  bottom: 0px;
+  width: 333px;
+  display: flex;
+  flex-direction: column;
+}
+
+.create-tree .content .modal-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,74 @@
+.panel-heading {
+  padding: 10px;
+}
+
+.edit-tree {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-tree .heading {
+  padding: 15px 0px;
+}
+
+.edit-tree .big-text {
+  font-size: 20px;
+}
+
+.edit-tree .has-feedback .glyphicon {
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.edit-tree .has-feedback .glyphicon:hover {
+  color: #c9302c;
+}
+
+.edit-tree .page-header h2 {
+  cursor: pointer;
+  height: 33px;
+}
+
+.edit-tree .page-body {
+  flex: 1;
+  padding: 0px 10px;
+  overflow: auto;
+}
+
+.has-feedback .form-control.require {
+  border-bottom: 2px solid #c9302c;
+}
+
+.edit-tree .page-body .add-new {
+  cursor: pointer;
+  color: #449d44;
+}
+
+.edit-tree .page-body .group-twig {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.edit-tree .panel-heading {
+  cursor: default;
+}
+
+.edit-tree .panel-heading .glyphicon {
+  cursor: pointer;
+}
+
+.edit-tree .page-body .list-group-item {
+  cursor: pointer;
+  padding: 7px;
+}
+
+.edit-tree .page-body .twig-name {
+  cursor: pointer;
+}
+
+.edit-tree .page-footer {
+  padding: 10px;
+  border-top: 1px solid #eee;
+}

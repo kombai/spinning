@@ -1,0 +1,42 @@
+{
+  "name": "Spinning",
+  "version": "1.0.0",
+  "description": "Spinning",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "webpack",
+    "start": "electron index.js",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=public/img/icon.icns --prune=true --out=application",
+    "package-win": "electron-packager . --overwrite --asar=true --platform=win32 --arch=x64 --icon=public/img/icon.ico --prune=true --out=application --version-string.CompanyName=Kombai --version-string.FileDescription=Spinning --version-string.ProductName=Spinning",
+    "package-linux": "electron-packager . --overwrite --platform=linux --arch=x64 --icon=public/img/icon.png --prune=true --out=application"
+  },
+  "author": "Minh Nguyen",
+  "email": "mnx2012@gmail.com",
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "babelify": "*",
+    "gulp": "*",
+    "gulp-concat": "*",
+    "minimatch": "*",
+    "webpack": "*",
+    "webpack-stream": "*"
+  },
+  "dependencies": {
+    "bootstrap": "*",
+    "electron": "*",
+    "electron-connect": "*",
+    "electron-packager": "*",
+    "fs-extra": "*",
+    "moment": "*",
+    "nedb": "*",
+    "node-notifier": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-redux": "*",
+    "react-router": "^3.0.0",
+    "redux": "*"
+  }
+}

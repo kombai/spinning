@@ -1,0 +1,80 @@
+.list-twig {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.list-twig .content {
+  background-color: white;
+  position: absolute;
+  width: 444px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-twig .page-header {
+  margin: 0px;
+  padding: 20px;
+}
+
+.list-twig .heading {
+  margin-bottom: 15px;
+}
+
+.list-twig .grid-twig {
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  overflow: auto;
+  justify-content: space-between;
+}
+
+.list-twig .grid-twig .twig {
+  border-radius: 4px;
+  display: flex;
+  padding: 7px;
+  height: 100px;
+  margin: 10px;
+  width: 100px;
+  cursor: pointer;
+  border: 1px solid #d4d4d4;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.list-twig .grid-twig .twig:hover,
+.list-twig .grid-twig .twig .selected {
+  background-color: #bce8f1;
+}
+
+.list-twig .heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.list-twig .heading .big-text {
+  font-size: 24px;
+}
+
+.list-twig .has-feedback {
+  z-index: 0;
+}
+
+.list-twig .search-twig {
+  margin: 5px 0px;
+}
+
+.list-twig .page-footer {
+  padding: 15px 20px;
+  border-top: 1px solid #eee;
+}

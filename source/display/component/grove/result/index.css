@@ -1,0 +1,60 @@
+.screen-edit .result-view {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.result-view .content {
+  background-color: white;
+  position: absolute;
+  width: 444px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.result-view .page-header {
+  margin: 0px;
+  padding: 20px;
+}
+
+.result-view .current-page {
+  float: right;
+  line-height: 34px;
+}
+
+.result-view .big-text {
+  font-size: 24px;
+}
+
+.result-view .page-body {
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+  padding: 15px;
+  overflow: auto;
+}
+
+.result-view .list-group-item {
+  padding: 5px;
+  position: relative;
+}
+
+.result-view .list-group-item .photo {
+  padding: 3px;
+}
+
+.result-view .list-group-item .leaf-name {
+  padding: 3px;
+}
+
+.result-view .page-footer {
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
